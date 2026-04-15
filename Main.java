@@ -23,7 +23,6 @@ public class Main {
 
             switch (choice) {
 
-                // ---------------- ADMIN ----------------
                 case 1:
                     System.out.print("Enter username: ");
                     String username = sc.nextLine();
@@ -39,7 +38,6 @@ public class Main {
                     }
                     break;
 
-                // ---------------- SIGNUP ----------------
                 case 2:
                     System.out.print("Enter name: ");
                     String name = sc.nextLine();
@@ -50,7 +48,6 @@ public class Main {
                     library.registerUser(name, userPass);
                     break;
 
-                // ---------------- USER LOGIN ----------------
                 case 3:
                     System.out.print("Enter User ID: ");
                     String userId = sc.nextLine();
@@ -81,7 +78,6 @@ public class Main {
         sc.close();
     }
 
-    // ---------------- USER MENU ----------------
     public static void userMenu(Library library, User user) {
         Scanner sc = new Scanner(System.in);
         int choice;
