@@ -25,7 +25,7 @@ public class Admin {
             System.out.print("Enter choice: ");
 
             choice = sc.nextInt();
-            sc.nextLine(); // clear buffer
+            sc.nextLine();
 
             switch (choice) {
 
